@@ -1,0 +1,66 @@
+.NF {
+  margin-top: 50px;
+}
+.NF .NF_CD {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: #365250;
+}
+.NF .NF_CD div {
+  font-size: 1.05rem;
+  margin: 1.5% 0 1%;
+}
+.NF .NF_CD div span {
+  margin: 0 13%;
+}
+.NF .NF_CD div div {
+  font-size: 1.05rem;
+  height: 2rem;
+  display: inline-block;
+}
+.NF .NF_list {
+  width: 100%;
+}
+.NF .NF_list p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.NF .NF_list .Notice1 {
+  display: none;
+}
+.NF .NF_list ul {
+  width: 90%;
+  margin: auto;
+  border-top: 0.05rem solid #dfdfdf;
+  padding-bottom: 5%;
+}
+.NF .NF_list ul li {
+  border-bottom: 0.05rem solid #dfdfdf;
+  padding: 2% 0;
+}
+.NF .NF_list ul li .NF_listr {
+  color: #365250;
+  margin-bottom: 1%;
+}
+.NF .NF_list ul li .NF_listr a:hover {
+  color: #365250 !important;
+}
+.NF .NF_list ul li .NF_listr a {
+  text-decoration: #365250;
+  color: #365250;
+}
+.NF .NF_list ul li .NF_listr a div {
+  width: 60%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.NF .NF_list ul li span {
+  color: #ccc;
+}

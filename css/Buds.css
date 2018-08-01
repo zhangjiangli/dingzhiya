@@ -1,0 +1,151 @@
+.Buds {
+  margin-top: 50px;
+  font-size: 0.8rem;
+}
+.Buds .img-1 {
+  height: 10rem;
+}
+.Buds .img-2 {
+  height: 10rem;
+}
+.Buds .img-3 {
+  height: 20rem;
+}
+.Buds .Buds_Title {
+  width: 90%;
+  color: #365250;
+  margin: 0.5rem auto;
+}
+.Buds .Buds_Title div {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+.Buds .Buds_Title p {
+  text-align: left;
+  text-indent: 2rem;
+}
+.Buds .Buds_Title span {
+  display: inline-block;
+  background: #609801;
+  width: 1rem;
+  height: 1rem;
+}
+.Buds .Buds_Title a:hover {
+  color: #365250;
+}
+.Buds .Buds_Title a {
+  text-decoration: none;
+  color: #365250;
+  font-size: 1.1rem;
+  display: block;
+}
+.Buds .Buds_Title a aside {
+  text-align: center;
+  height: 2.5rem;
+  line-height: 2.6rem;
+  width: 50%;
+  border: 1px solid #365250;
+  margin: 5% auto;
+}
+.Buds .Buds_CD {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: #365250;
+}
+.Buds .Buds_CD div {
+  font-size: 1.05rem;
+}
+.Buds .Buds_CD div span {
+  margin: 0 13%;
+}
+.Buds .Buds_CD div div {
+  font-size: 1.05rem;
+  height: 2rem;
+  display: inline-block;
+}
+.Buds .Buds_list {
+  width: 90%;
+  color: #365250;
+  margin: 0.5rem auto;
+  border-bottom: 1px solid #868686;
+  border-top: 1px solid #868686;
+}
+.Buds .Buds_list ul {
+  padding: 5% 5% 0 5%;
+}
+.Buds .Buds_list ul li {
+  width: 100%;
+  margin-bottom: 3%;
+}
+.Buds .Buds_list ul li div {
+  display: inline-block;
+}
+.Buds .Buds_list ul li .Buds_listl {
+  border: 2px solid #365250;
+  width: 20%;
+  height: 4rem;
+  text-align: center;
+  margin: 2% 5% 5% 0;
+  float: left;
+}
+.Buds .Buds_list ul li .Buds_listl p {
+  font-size: 1.5rem;
+  font-weight: 900;
+  display: inline;
+}
+.Buds .Buds_list ul li .Buds_listl span {
+  font-size: 1.1rem;
+}
+.Buds .Buds_list ul li .Buds_listr {
+  width: 73%;
+  height: 5rem;
+  float: right;
+}
+.Buds .Buds_list ul li .Buds_listr div {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.Buds .Buds_list ul li .Buds_listr p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.Buds .Frienlink {
+  width: 90%;
+  margin: 0.5rem auto;
+  font-size: 0.8rem;
+}
+.Buds .Frienlink p {
+  width: 100%;
+}
+.Buds .Frienlink p a {
+  margin-left: 5%;
+  color: #365250;
+  text-decoration: none;
+}
+.Buds .Frienlink p a:hover {
+  color: #365250;
+}
+/* @media screen and (width: 414px) {
+  .Buds .img-1 {
+    height: 12rem;
+  }
+  .Buds .img-2 {
+    height: 9rem;
+  }
+} */
+/* @media screen and (width: 375px) {
+  .Buds .img-2 {
+    height: 8.05rem;
+  }
+  .Buds .img-1 {
+    height: 11rem;
+  }
+} */

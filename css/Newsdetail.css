@@ -1,0 +1,38 @@
+.ND {
+  margin-top: 50px;
+  color: #365250;
+}
+.ND .ND_title {
+  padding: 3% 0;
+  text-align: center;
+  background: #fff;
+}
+.ND .ND_title p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.ND .ND_package {
+  background: #f4f4f4;
+  padding: 3%;
+}
+.ND .ND_package .package_top {
+  text-align: center;
+}
+.ND .ND_package .package_top span {
+  color: #999;
+}
+.ND .ND_package .package_top .borleft {
+  display: inline-block;
+  width: 3rem;
+  border-bottom: 1px solid #999;
+  margin-bottom: 0.25rem;
+}
+.ND .ND_package .package_top .borright {
+  display: inline-block;
+  width: 3rem;
+  border-bottom: 1px solid #999;
+  margin-bottom: 0.25rem;
+}
+.ND .ND_package .ND_cont1 .mtm {
+  margin: 1% 0;
+}

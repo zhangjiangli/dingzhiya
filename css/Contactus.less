@@ -1,0 +1,121 @@
+body {
+    background: #fff;
+}
+
+.CA {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    overflow-x: hidden;
+    .AU_Title {
+        width: 90%;
+        color: #365250;
+        margin: 0.5rem auto;
+    }
+    .CA_blank {
+        margin: 5% 0;
+        .CA_left {
+            float: left;
+            margin-left: 5%;
+            width: 59%;
+            img {
+                width: 64%;
+            }
+            p {
+                color: #365250;
+                font-size: 1rem;
+                font-weight: 600;
+            }
+            .CA_dh {
+                margin-top: 6%;
+                .dhl {
+                    float: left;
+                    margin-top: 3%;
+                }
+                .dhr {
+                    margin-right: 27%;
+                    float: right;
+                }
+            }
+            .CA_dh2 {
+                margin-top: 6%;
+                .dhl {
+                    float: left;
+                    margin-top: 3%;
+                    .img-jy {
+                        width: 95%;
+                    }
+                }
+                .dhr {
+                    margin-right: 12%;
+                    float: right;
+                }
+            }
+        }
+        .CA_right {
+            float: right;
+            margin-right: -18%;
+            margin-top: -1%;
+            img {
+                width: 60%;
+            }
+        }
+        .CA_dz {
+            img {
+                width: 76%;
+            }
+            .dzl {
+                color: #365250;
+                float: left;
+                margin-top: 3%;
+                margin-left: 5%;
+            }
+            .dzr {
+                margin-right: 25%;
+                float: right;
+            }
+        }
+    }
+}
+
+@media screen and (width:414px) {
+    .CA .CA_blank .CA_left .CA_dh2 .dhr {
+        margin-right: 19% !important;
+    }
+    .CA .CA_blank .CA_dz .dzr {
+        margin-right: 31% !important;
+    }
+    .CA .CA_blank .CA_left .CA_dh .dhr {
+        margin-right: 33% !important;
+    }
+    .CA .CA_blank .CA_right {
+        margin-right: -15% !important;
+    }
+}
+
+@media screen and (width:320px) {
+    .CA .CA_blank .CA_left p {
+        font-size: 0.95rem !important;
+    }
+    .CA .CA_blank .CA_left .CA_dh .dhr {
+        margin-right: 19% !important;
+    }
+    .CA .CA_blank .CA_left .CA_dh2 .dhr {
+        margin-right: 3% !important;
+    }
+    .CA .CA_blank .CA_right {
+        margin-right: -26% !important;
+        margin-top: -33% !important;
+    }
+    .CA .CA_blank .CA_right img {
+        width: 53% !important;
+    }
+    .CA .CA_blank .CA_dz img {
+        width: 68% !important;
+    }
+    .CA .CA_blank .CA_dz .dzr {
+        margin-right: 14% !important;
+    }
+    .img-jy {
+        width: 101% !important;
+    }
+}

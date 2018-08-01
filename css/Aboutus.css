@@ -1,0 +1,59 @@
+.AU_swiper .swiper-button-prev {
+  background-image: url("../img/index/left.png");
+}
+.AU_swiper .swiper-button-next {
+  background-image: url("../img/index/right.png");
+}
+.AU {
+  margin-top: 50px;
+  font-size: 0.8rem;
+}
+.AU .AU_Title {
+  width: 90%;
+  color: #365250;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+.AU .AU_Title div {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.AU .AU_Title p {
+  text-align: left;
+  text-indent: 2rem;
+}
+.AU .AU_List {
+  width: 100%;
+}
+.AU .AU_List ul li {
+  height: 12.6rem;
+  float: left;
+  width: 50%;
+  display: inline-block;
+  background: #365250;
+}
+.AU .AU_List ul li .AU_List_Tf_p {
+  margin-top: 34%;
+  font-size: 1.5rem;
+}
+.AU .AU_List .AU_List_Tf {
+  text-align: center;
+  color: #fff;
+}
+@media screen and (width: 375px) {
+  #list-group > li {
+    height: 11.45rem;
+  }
+}
+@media screen and (width: 320px) {
+  #list-group > li {
+    height: 9.8rem;
+  }
+  .AU .AU_List ul li .AU_List_Tf_p {
+    margin-top: 30%;
+    font-size: 1.2rem;
+  }
+  .AU .AU_List ul li p {
+    font-size: 0.6rem;
+  }
+}

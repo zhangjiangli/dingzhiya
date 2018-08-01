@@ -1,0 +1,29 @@
+.PD {
+  margin-top: 50px;
+  font-size: 0.8rem;
+}
+.PD .img-box div {
+  margin: 0 25%;
+}
+.PD .img-box div img {
+  width: 100%;
+}
+.PD .PD_Title {
+  width: 90%;
+  color: #365250;
+  margin: 0.5rem auto;
+}
+.PD .PD_Title div {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+.PD .PD_Title p {
+  text-align: left;
+  text-indent: 2rem;
+}
+.PD .PD_Title span {
+  text-align: left;
+  font-size: 1.1rem;
+  display: block;
+}

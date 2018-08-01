@@ -1,0 +1,159 @@
+body {
+    background: #fff;
+}
+
+.CA {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    overflow-x: hidden;
+}
+
+.CA .AU_Title {
+    width: 90%;
+    color: #365250;
+    margin: 0.5rem auto;
+}
+
+.CA .CA_blank {
+    margin: 5% 0;
+}
+
+.CA .CA_blank .CA_left {
+    float: left;
+    margin-left: 5%;
+    width: 59%;
+}
+
+.CA .CA_blank .CA_left img {
+    width: 64%;
+}
+
+.CA .CA_blank .CA_left p {
+    color: #365250;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.CA .CA_blank .CA_left .CA_dh {
+    margin-top: 6%;
+    position: relative;
+}
+
+.CA .CA_blank .CA_left .CA_dh .dhl {
+    float: left;
+    margin-top: 3%;
+}
+
+.CA .CA_blank .CA_left .CA_dh .dhr {
+    float: left;
+    position: absolute;
+    left: 30%;
+    width: 100%;
+}
+
+.CA .CA_blank .CA_left .CA_dh2 {
+    margin-top: 6%;
+    position: relative;
+}
+
+.CA .CA_blank .CA_left .CA_dh2 .dhl {
+    float: left;
+    margin-top: 3%;
+}
+
+.CA .CA_blank .CA_left .CA_dh2 .dhl .img-jy {
+    width: 95%;
+}
+
+.CA .CA_blank .CA_left .CA_dh2 .dhr {
+    float: left;
+    position: absolute;
+    left: 30%;
+    width: 100%;
+}
+
+.CA .CA_blank .CA_right {
+    float: right;
+    margin-right: -18%;
+    margin-top: -1%;
+}
+
+.CA .CA_blank .CA_right img {
+    width: 25% !important;
+    position: absolute;
+    right: 1%;
+}
+
+.CA .CA_blank .CA_dz img {
+    width: 76%;
+}
+
+.CA .CA_blank .CA_dz .dzl {
+    color: #365250;
+    float: left;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.CA .CA_blank .CA_dz .dzr {
+    float: left;
+    position: absolute;
+    left: 22.6%;
+    width: 100%;
+}
+
+@media screen and (width: 414px) {
+    .CA .CA_blank .CA_left .CA_dh2 .dhr {
+        margin-right: 19% !important;
+    }
+    .CA .CA_blank .CA_dz .dzr {
+        margin-right: 31% !important;
+    }
+    .CA .CA_blank .CA_left .CA_dh .dhr {
+        margin-right: 33% !important;
+    }
+    .CA .CA_blank .CA_right {
+        margin-right: -15% !important;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:370px) {
+    .CA .CA_blank .CA_left p {
+        font-size: 0.95rem !important;
+    }
+    .CA .CA_blank .CA_left .CA_dh .dhr {
+        margin-right: 19% !important;
+    }
+    .CA .CA_blank .CA_left .CA_dh2 .dhr {
+        margin-right: 3% !important;
+    }
+    .CA .CA_blank .CA_right {
+        margin-right: -26% !important;
+    }
+    .CA .CA_blank .CA_right img {}
+    .CA .CA_blank .CA_dz img {
+        width: 68% !important;
+    }
+    .CA .CA_blank .CA_dz .dzr {
+        margin-right: 14% !important;
+    }
+    .img-jy {
+        width: 101% !important;
+    }
+}
+
+.layui-laypage {
+    display: block!important;
+    vertical-align: middle;
+    margin: 10px 0;
+    font-size: 0;
+    position: relative !important;
+}
+
+.layui-laypage-next {
+    display: block;
+    /* float: right; */
+    position: absolute !important;
+    right: 0px!important;
+    top: 0!important;
+}

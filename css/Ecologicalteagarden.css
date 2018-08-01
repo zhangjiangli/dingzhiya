@@ -1,0 +1,40 @@
+.ECT {
+  margin-top: 50px;
+  width: 100%;
+  font-size: 0.9rem;
+}
+.ECT .Title-1 {
+  width: 90%;
+  color: #365250;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+.ECT .Title-1 div {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.ECT .Title-1 p {
+  text-align: left;
+  text-indent: 2rem;
+}
+.ECT .Title-2 .swiper-button-prev {
+  background-image: url("../img/index/left.png");
+}
+.ECT .Title-2 .swiper-button-next {
+  background-image: url("../img/index/right.png");
+}
+.ECT .Title-3 {
+  width: 90%;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+.ECT .Title-3 div {
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.ECT .Title-3 p {
+  text-align: left;
+  text-indent: 2rem;
+}
